@@ -1,3 +1,14 @@
+Fork of the original https://github.com/jkehler/awslambda-psycopg2 library,
+brought into our org so we can more tightly control what we depend on.
+
+This is a prebuilt version of the `psycopg2` C library for AWS lambda.
+Installing this via pip won't work because pip will install `macos` bindings
+that are incompatible with AWS Lambda.
+
+See https://stackoverflow.com/questions/44855531 for more on this issue.
+
+--------
+
 psycopg2 Python Library for AWS Lambda
 ======================================
 
